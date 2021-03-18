@@ -3,6 +3,19 @@ import math
 
 from gamelib import *
 
+#The Pitch
+#It begins...
+#It’s so dark. How did you get here? What time is it? You sit still and wonder what’s going on. 
+#Oh no. Now what? You hear some footsteps to the left. A hushed “braaaiiinnnnsss” echoing throughout the room. Great. 
+#You sit still for a little longer and listen carefully. The place sounds infested. You can’t see anything, but you get up and start running. 
+#Figuring out what to do next. You’re not about to die here. 
+
+#The Response
+#"Well that's just lazy writing... but go for it."
+
+#The Directions
+#Your job is to describe what you’re going to do to survive the zombie apocalypse by filling in the code for the PlayerCharacter class in the zombie.py file. The only goal is to remain alive until the end of the game, even if the zombies are still alive. 
+
 class ZombieCharacter(ICharacter):
     def __init__(self, obj_id, health, x, y, map_view):
         ICharacter.__init__(self, obj_id, health, x, y, map_view)
