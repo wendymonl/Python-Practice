@@ -2,9 +2,8 @@
 ## Name: Wendy Montano
 ## EID : wfm427
 ##
-## Fill in the 3 functions below
 
-
+#open "star wars" script and identify characters
 def star_wars():
     f=open("starwars.txt")
     lines=f.readlines()
@@ -20,7 +19,6 @@ def star_wars():
     from collections import Counter
     for key, value in sorted(Counter(character).items()):
         characterdict.update({key:value}) #my character dictionary is sorted in alphabetical order
-#now I just have to figure out how to sort this dictionary in descending order
 #from stackoverflow: Python's sort algorithm (TimSort) is a stable sort, so any items that have the same sort 'value', are kept in the order they were in before sorting.
     descending_order = sorted(characterdict, key=characterdict.get, reverse=True)
     for k in descending_order:
@@ -28,6 +26,7 @@ def star_wars():
     ## Use starwars.txt
     return
 
+#identify stars from a text file and identify the closest/furthest ones
 def star_travel():
     ## Write Code Here
     f=open("stars.txt")
@@ -72,6 +71,7 @@ def star_travel():
     ## Use stars.txt
     return
 
+#make a calculator
 def calculator():
     ## Write Code Here
     Operation=(input("Enter Operation: "))
