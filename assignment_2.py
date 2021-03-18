@@ -2,8 +2,8 @@
 ## Name: Wendy Montano
 ## EID : wfm427
 ##
-## Fill in the functions and class below
 
+#Which was the longest word in the "star wars.txt" script? And which character said force the most?
 def star_wars():
     ## Write Code Here
     f=open("starwars.txt")
@@ -67,6 +67,7 @@ kwargs can be :
     format => string that will be formatted as 1st and last element of each row
 '''
 
+#create a matrix to manipulate mathematically
 import numpy as np
 import random
 def generateMatrix(**kwargs):
@@ -140,6 +141,7 @@ def generateMatrix(**kwargs):
         else:
             print(row)      
 
+#find the roots of a quadratic equation
 class QuadraticEquation:
     def __init__(self, a, b, c):
         self.a=a
