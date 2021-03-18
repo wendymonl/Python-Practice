@@ -1,11 +1,8 @@
 ## Assignment3 ES 122
 ## Name: Wendy Montano
 ## EID : wfm427
-##
-## Fill in the functions and classes below
 
-
-# Problem 1
+# Problem 1: Write a function that sorts an unknown number of numbers (integers and/or floats) and returns the sorted list
 # Optional Paramaters:
 # Each of these paramaters should have the value True if you are applying the paramater 
 # Reverse: Sorts from highest to lowest.
@@ -55,8 +52,11 @@ def sortedTheseNumbers(*args, **kwargs):
         return makelist 
  
 
-# Problem 2
-# A class that represents a point in space
+# Problem 2: One common way to check for collisions in robotics is to create bounding boxes from either CAD or sensor data.
+#For this problem we are going to create a BoundingBox object generated from a PointCloudData data objects which store lists of objects as Points. 
+#Thus we will need to create three classes to complete this problem. These classes are outlined below.
+
+#A class that represents a point in space
 # required variables and methods
 # x - stores the x value of the point
 # y - stores the y value of the point
@@ -141,4 +141,4 @@ class BoundingBox(PointCloudData):
         return
     
     
-# You can test your code by running testcases.py
+# test code by running testcases.py
